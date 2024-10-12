@@ -1,0 +1,36 @@
+body
+{
+    /* display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px; */
+    
+}
+
+.input{
+    width: 40%;
+    height: 120%;
+    border: 1px solid black;
+    padding: 30px;
+    margin: 30px;
+    display: grid;
+    gap: 20px;
+    text-align: center;
+}
+
+table{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+table, th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+}
+
+#title{
+    text-align: center;
+}
+

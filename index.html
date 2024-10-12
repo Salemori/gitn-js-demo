@@ -1,16 +1,48 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <script src="app.js"></script>
-    <script src="function-array.js"></script>
-    <!-- <script src="demo.js"></script> -->
+    <title>JavaScript Task</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- <script src="app.js"></script> -->
+    <script src="./function-array.js"></script>
+    <script src="./control-flow.js"></script>
 </head>
+
 <body>
     <h1>Welcome!</h1>
+    <!-- <p>Feeling pumped up for the coming election? Confirm if you are of a votable age here</p> -->
+   
+   <div class="input" id="prog">
+    <label for="num-one" class="remove">Enter a number less than 50 or greater than 100.</label>
+    <input type="text" id="num-one" min="2" max="9" class="remove">
+    <button onclick="getNumber()" class="remove">Submit</button>
 
-    <p>Feeling pumped up for the coming election? Confirm if you are of a votable age here</p>
+    <div id="result"></div>
+   </div>
+
+   <div  class="input" id="num-div">
+    <label for="num-two" class="delete">Enter any number between 2 and 9</label>
+    <input type="text" id="num-two" min="2" max="9" class="delete">
+    <button onclick="multiplicationTable()" class="delete">Submit</button>
+    
+    <h3 id="title" class="delete"></h3>
+    <div id="table"></div>
+   </div>
+
+   
+    <!-- <div class="input-one">
+        <h3>Input Validation</h3>
+        <input type="text">
+        <button>Submit</button>
+    </div>
+    <div class="input-two">
+        <input type="text">
+        <button>Submit</button>
+        <div></div>
+    </div> -->
 </body>
+
 </html>
